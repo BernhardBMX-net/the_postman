@@ -1,5 +1,17 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+<<<<<<<< HEAD:Assets/Textures/Sprites/Panda/pixel_panda_lie.png.meta
 guid: 779c0328b11990c4ba2817c3e7cb1ad7
+========
+guid: 4a44b148b3b7bf94ba9e771f94766cae
+>>>>>>>> 93064fae4f85bada1ec71f15fb66b73c0d61ab07:Assets/Textures/Sprites/Player_animation_fighting/player_animation_fighting_1.png.meta
+=======
+<<<<<<<< HEAD:Assets/Textures/Sprites/Player_animation_fighting/player_animation_fighting_1.png.meta
+guid: 5d0b6b1fc7382ae44a61d47be7f2bedf
+========
+guid: 044fb3d6c4bc7f94fadb24d16d875caa
+>>>>>>>> 93064fae4f85bada1ec71f15fb66b73c0d61ab07:Assets/Textures/Sprites/Panda/pixel_panda_lie.png.meta
+>>>>>>> 93064fae4f85bada1ec71f15fb66b73c0d61ab07
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -81,6 +93,8 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
+<<<<<<< HEAD
+=======
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -94,6 +108,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
+>>>>>>> 93064fae4f85bada1ec71f15fb66b73c0d61ab07
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
