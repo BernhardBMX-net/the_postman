@@ -1,8 +1,16 @@
 fileFormatVersion: 2
 <<<<<<< HEAD
-guid: 3586c76d397d26543aec4d2d41e44f61
+<<<<<<<< HEAD:Assets/Textures/Sprites/Player_animation_fighting/player_animation_fighting_2.png.meta
+guid: e40ff27aa6f8338458a9f7f29e3a8779
+========
+guid: afe547badb551d047b6a9f4b5b0b042e
+>>>>>>>> 93064fae4f85bada1ec71f15fb66b73c0d61ab07:Assets/Textures/Sprites/Panda/pixel_panda_stand.png.meta
 =======
-guid: fbeb0db2d1e2c574295fcdf6c69b1c56
+<<<<<<<< HEAD:Assets/Textures/Sprites/Panda/pixel_panda_stand.png.meta
+guid: 4bae3202579dfdc4791f75ebdc0fa404
+========
+guid: fa001a214b458f94e9e380c0aa5c8869
+>>>>>>>> 93064fae4f85bada1ec71f15fb66b73c0d61ab07:Assets/Textures/Sprites/Player_animation_fighting/player_animation_fighting_2.png.meta
 >>>>>>> 93064fae4f85bada1ec71f15fb66b73c0d61ab07
 TextureImporter:
   internalIDToNameTable: []
