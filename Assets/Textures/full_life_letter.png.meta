@@ -1,21 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
-guid: a3585bf89a2961e47930f27e1c25d1f9
-=======
-<<<<<<<< HEAD:Assets/Textures/Sprites/postman_animation_fighting.png.meta
-<<<<<<<< HEAD:Assets/Textures/Sprites/Panda/pixel_panda_stand.png.meta
-guid: aab21faee1d79e64dbdb3310d76eaafa
-========
-guid: b7fccfe716d87c546a0a21f2f5ff6ddd
->>>>>>>> 8335c876bb33397823374f43b130eda170afe0d2:Assets/Textures/Sprites/postman_animation_fighting.png.meta
-========
-<<<<<<< HEAD
-guid: a9d2a3ef7481ce34f8e679d33dd85f22
-=======
-guid: 3e792bf0a5c848a4688783ea77040e81
->>>>>>> 93064fae4f85bada1ec71f15fb66b73c0d61ab07
->>>>>>>> 3901736af9cc464cf8f3e3b20cab91f9718d65dd:Assets/Textures/Sprites/Player_animation_fighting/player_animation_fighting_3.png.meta
->>>>>>> 3901736af9cc464cf8f3e3b20cab91f9718d65dd
+guid: 1a848b98e57e94d44a7f1ad03de33ec0
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,10 +81,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 3901736af9cc464cf8f3e3b20cab91f9718d65dd
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -114,11 +94,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 93064fae4f85bada1ec71f15fb66b73c0d61ab07
->>>>>>> 3901736af9cc464cf8f3e3b20cab91f9718d65dd
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0

@@ -1,6 +1,19 @@
 fileFormatVersion: 2
 <<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Textures/Sprites/Panda/pixel_panda_lie.png.meta
+<<<<<<< HEAD
+guid: a201b5fc60f66d744a6aada28faba749
+========
+guid: fbeb0db2d1e2c574295fcdf6c69b1c56
+>>>>>>>> 8335c876bb33397823374f43b130eda170afe0d2:Assets/Textures/Sprites/game_bamboo.png.meta
+=======
+<<<<<<<< HEAD:Assets/Textures/Sprites/Player_animation_fighting/player_animation_fighting_1.png.meta
+guid: c7deb30d8ba06c041ab1b05722ba2053
+========
+guid: 044fb3d6c4bc7f94fadb24d16d875caa
+>>>>>>>> 8335c876bb33397823374f43b130eda170afe0d2:Assets/Textures/Sprites/Panda/pixel_panda_lie.png.meta
+>>>>>>> 8335c876bb33397823374f43b130eda170afe0d2
+=======
 guid: 779c0328b11990c4ba2817c3e7cb1ad7
 ========
 guid: 4a44b148b3b7bf94ba9e771f94766cae
@@ -12,6 +25,7 @@ guid: 5d0b6b1fc7382ae44a61d47be7f2bedf
 guid: 044fb3d6c4bc7f94fadb24d16d875caa
 >>>>>>>> 93064fae4f85bada1ec71f15fb66b73c0d61ab07:Assets/Textures/Sprites/Panda/pixel_panda_lie.png.meta
 >>>>>>> 93064fae4f85bada1ec71f15fb66b73c0d61ab07
+>>>>>>> 3901736af9cc464cf8f3e3b20cab91f9718d65dd
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -108,7 +122,11 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
+<<<<<<< HEAD
+>>>>>>> 8335c876bb33397823374f43b130eda170afe0d2
+=======
 >>>>>>> 93064fae4f85bada1ec71f15fb66b73c0d61ab07
+>>>>>>> 3901736af9cc464cf8f3e3b20cab91f9718d65dd
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
