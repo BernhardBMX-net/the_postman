@@ -1,5 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: eda9ea86e8e8b63459ef0811eb889c7b
+=======
+<<<<<<<< HEAD:Assets/Textures/Sprites/Panda/pixel_panda_lie.png.meta
+guid: a201b5fc60f66d744a6aada28faba749
+========
+guid: fbeb0db2d1e2c574295fcdf6c69b1c56
+>>>>>>>> 8335c876bb33397823374f43b130eda170afe0d2:Assets/Textures/Sprites/game_bamboo.png.meta
+>>>>>>> 8335c876bb33397823374f43b130eda170afe0d2
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -81,6 +89,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
+<<<<<<< HEAD
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -94,6 +103,8 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
+=======
+>>>>>>> 8335c876bb33397823374f43b130eda170afe0d2
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0

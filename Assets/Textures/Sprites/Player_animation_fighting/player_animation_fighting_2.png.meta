@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Textures/Sprites/Player_animation_fighting/player_animation_fighting_2.png.meta
 guid: 438acb8b75a03ea44be63e209a601079
+========
+guid: afe547badb551d047b6a9f4b5b0b042e
+>>>>>>>> 8335c876bb33397823374f43b130eda170afe0d2:Assets/Textures/Sprites/Panda/pixel_panda_stand.png.meta
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
