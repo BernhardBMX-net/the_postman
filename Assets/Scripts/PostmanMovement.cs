@@ -1,78 +1,51 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PostmanMovement : MonoBehaviour
 {
-    public float speed = 5;
-    private Rigidbody2D rb;
-    public float jumph = 5;
-    private bool isgrounded = false;
+    private float horizontal;
+    private float speed = 8f;
+    private float jumpingPower = 16f;
+    private bool isFacingRight = true;
 
-    private Animator anim;
-    private Vector3 rotation;
-    // Start is called before the first frame update
-    void Start()
-    {
-        rb = GetComponent<Rigidbody2D>();
-        anim = GetComponent<Animator>();
-        rotation = transform.eulerAngles;
-    }
+    [SerializeField] private Rigidbody2D rb;
+    [SerializeField] private Transform groundCheck;
+    [SerializeField] private LayerMask groundLayer;
 
-    // Update is called once per frame
     void Update()
     {
-        float richtung = Input.GetAxis("Horizontal");
+        horizontal = Input.GetAxisRaw("Horizontal");
 
-        if (richtung != 0)
+        if (Input.GetButtonDown("Jump") && IsGrounded())
         {
-            anim.SetBool("IsRunning", true);
-        }
-        else
-        {
-            anim.SetBool("IsRunning", false);
-        }
-        if (richtung < 0)
-        {
-            transform.eulerAngles = rotation - new Vector3(0, 180, 0);
-            transform.Translate(Vector2.right * speed * -richtung * Time.deltaTime);
-        }
-        if (richtung > 0)
-        {
-            transform.eulerAngles = rotation;
-            transform.Translate(Vector2.right * speed * richtung * Time.deltaTime);
-        }
-        if (isgrounded == false)
-        {
-            anim.SetBool("IsJumping", true);
-        }
-        else
-        {
-            anim.SetBool("IsJumping", false);
+            rb.velocity = new Vector2(rb.velocity.x, jumpingPower);
         }
 
-
-        if (Input.GetKeyDown(KeyCode.Space) && isgrounded)
+        if (Input.GetButtonUp("Jump") && rb.velocity.y > 0f)
         {
-            rb.AddForce(Vector2.up * jumph, ForceMode2D.Impulse);
-            isgrounded = false;
+            rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
         }
+
+        Flip();
     }
-    private void OnCollisionEnter2D(Collision2D collision)
+
+    private void FixedUpdate()
     {
-        if (collision.gameObject.tag == "ground")
-        {
-            isgrounded = true;
-        }
+        rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
     }
 
-    /*private void OnTriggerEnter2D(Collider2D other)
+    private bool IsGrounded()
     {
-        if (other.gameObject.tag == "Coin")
-        {
-            Destroy(other.gameObject);
-        }
-
+        return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
     }
-    */
+
+    private void Flip()
+    {
+        if (isFacingRight && horizontal < 0f || !isFacingRight && horizontal > 0f)
+        {
+            isFacingRight = !isFacingRight;
+            Vector3 localScale = transform.localScale;
+            localScale.x *= -1f;
+            transform.localScale = localScale;
+        }
+    }
 }

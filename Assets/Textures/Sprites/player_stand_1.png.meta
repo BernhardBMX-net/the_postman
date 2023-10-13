@@ -1,5 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 7e627d00f45062547b461f1edb0b7f49
+=======
+<<<<<<< HEAD
+guid: 885d9f86b6aa54f4e969d97da4321c06
+=======
+guid: f82f7aef5f091304db4303294efb77d2
+>>>>>>> 93064fae4f85bada1ec71f15fb66b73c0d61ab07
+>>>>>>> 3901736af9cc464cf8f3e3b20cab91f9718d65dd
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -10,7 +18,15 @@ TextureImporter:
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
+<<<<<<< HEAD
     borderMipMap: 0
+=======
+<<<<<<< HEAD
+    borderMipMap: 0
+=======
+    borderMipMap: 1
+>>>>>>> 93064fae4f85bada1ec71f15fb66b73c0d61ab07
+>>>>>>> 3901736af9cc464cf8f3e3b20cab91f9718d65dd
     mipMapsPreserveCoverage: 0
     alphaTestReferenceValue: 0.5
     mipMapFadeDistanceStart: 1
@@ -35,7 +51,15 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 1
+<<<<<<< HEAD
     aniso: 1
+=======
+<<<<<<< HEAD
+    aniso: 1
+=======
+    aniso: 0
+>>>>>>> 93064fae4f85bada1ec71f15fb66b73c0d61ab07
+>>>>>>> 3901736af9cc464cf8f3e3b20cab91f9718d65dd
     mipBias: 0
     wrapU: 1
     wrapV: 1
@@ -51,7 +75,15 @@ TextureImporter:
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
+<<<<<<< HEAD
   alphaUsage: 1
+=======
+<<<<<<< HEAD
+  alphaUsage: 1
+=======
+  alphaUsage: 0
+>>>>>>> 93064fae4f85bada1ec71f15fb66b73c0d61ab07
+>>>>>>> 3901736af9cc464cf8f3e3b20cab91f9718d65dd
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
@@ -81,6 +113,10 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 3901736af9cc464cf8f3e3b20cab91f9718d65dd
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -94,6 +130,11 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 93064fae4f85bada1ec71f15fb66b73c0d61ab07
+>>>>>>> 3901736af9cc464cf8f3e3b20cab91f9718d65dd
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0

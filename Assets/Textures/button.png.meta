@@ -1,9 +1,16 @@
 fileFormatVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
 guid: 28491cdb00efa9f47a592418164aae77
 =======
 guid: abd760011f7e6da47b95e310c18fb55a
 >>>>>>> 8335c876bb33397823374f43b130eda170afe0d2
+=======
+guid: 67f85a93da1b8c64f9d2d116ae90550b
+=======
+guid: abd760011f7e6da47b95e310c18fb55a
+>>>>>>> 93064fae4f85bada1ec71f15fb66b73c0d61ab07
+>>>>>>> 3901736af9cc464cf8f3e3b20cab91f9718d65dd
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -100,7 +107,11 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
 =======
+<<<<<<< HEAD
 >>>>>>> 8335c876bb33397823374f43b130eda170afe0d2
+=======
+>>>>>>> 93064fae4f85bada1ec71f15fb66b73c0d61ab07
+>>>>>>> 3901736af9cc464cf8f3e3b20cab91f9718d65dd
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0

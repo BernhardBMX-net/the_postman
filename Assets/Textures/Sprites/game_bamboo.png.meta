@@ -1,5 +1,6 @@
 fileFormatVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
 guid: eda9ea86e8e8b63459ef0811eb889c7b
 =======
 <<<<<<<< HEAD:Assets/Textures/Sprites/Panda/pixel_panda_lie.png.meta
@@ -8,6 +9,12 @@ guid: a201b5fc60f66d744a6aada28faba749
 guid: fbeb0db2d1e2c574295fcdf6c69b1c56
 >>>>>>>> 8335c876bb33397823374f43b130eda170afe0d2:Assets/Textures/Sprites/game_bamboo.png.meta
 >>>>>>> 8335c876bb33397823374f43b130eda170afe0d2
+=======
+guid: 3586c76d397d26543aec4d2d41e44f61
+=======
+guid: fbeb0db2d1e2c574295fcdf6c69b1c56
+>>>>>>> 93064fae4f85bada1ec71f15fb66b73c0d61ab07
+>>>>>>> 3901736af9cc464cf8f3e3b20cab91f9718d65dd
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -104,7 +111,11 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
 =======
+<<<<<<< HEAD
 >>>>>>> 8335c876bb33397823374f43b130eda170afe0d2
+=======
+>>>>>>> 93064fae4f85bada1ec71f15fb66b73c0d61ab07
+>>>>>>> 3901736af9cc464cf8f3e3b20cab91f9718d65dd
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
